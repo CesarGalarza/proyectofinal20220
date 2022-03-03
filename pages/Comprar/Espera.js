@@ -2,9 +2,9 @@ function EsperaComprar() {
   
     return <div>
 
-        <head>
-            <meta http-equiv="refresh" content="3;../OperacionCompletada" />
-        </head>
+        <Head>
+            <meta httpEquiv="refresh" content="3;../OperacionCompletada" />
+        </Head>
       
         <body className="mt-4 container">
             <div>
