@@ -1,9 +1,9 @@
-import { useState } from "react"
+import { UseState } from "react"
 import Comprar_Vender from "./comprar_vender"
 
 export default function editar_tipo_de_cambio(props) {
-    const [txtPEN, setTxtPEN] = useState("")
-    const [txtBTC, setTxtBTC] = useState("")
+    const [txtPEN, setTxtPEN] = UseState("")
+    const [txtBTC, setTxtBTC] = UseState("")
 
     const txtPENOnChange = (event) => {
         const txtPENIngresado = event.target.value
