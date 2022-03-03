@@ -53,6 +53,10 @@ const C_BodyNosotrosDos = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="mt-4 text-center">
+                    <a class="btn btn-secondary" href="/#" role="button">Regresar</a>
+                </div>
         </div>
 
         <div className="container mt-4 mb-4">
