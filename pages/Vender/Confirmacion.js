@@ -1,3 +1,5 @@
+import { Operacion } from "./Solicitud"
+
 function MostrarNumeroOperacion(n) {
 
     return <div>
@@ -5,8 +7,6 @@ function MostrarNumeroOperacion(n) {
         <p className="mt-2 mb-4" id="operacion">{n}</p>
     </div>
 }
-
-const Operacion = 123456789;
 
 function ConfirmacionVender() {
   
@@ -20,7 +20,7 @@ function ConfirmacionVender() {
 
             <div>
                 <label htmlFor="walletbitcoin">La dirección wallet a donde venderá los bitcoins es: </label>
-                <h5 className="mt-2 mb-4" id="walletbitcoin">0000x00302001e021edefe232442</h5>
+                <h5 className="mt-2 mb-4" id="walletbitcoin">2HDf4ruAdsmE4ncSEds32dDeAc</h5>
             </div>
 
             <div>

@@ -67,7 +67,7 @@ function SolicitudVender() {
             </div>
 
             <div>
-                {MostrarNumeroOperacion(nOperacion)}
+                {MostrarNumeroOperacion(Operacion)}
             </div>
 
             <div>
@@ -80,3 +80,5 @@ function SolicitudVender() {
   }
   
   export default SolicitudVender
+
+  export { Operacion }

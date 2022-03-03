@@ -1,3 +1,5 @@
+import { Operacion } from "./Solicitud"
+
 function MostrarNumeroOperacion(n) {
 
     return <div>
@@ -5,8 +7,6 @@ function MostrarNumeroOperacion(n) {
         <p className="mt-2 mb-4" id="operacion">{n}</p>
     </div>
 }
-
-const Operacion = 123456789;
 
 function ConfirmacionComprar() {
   
@@ -20,7 +20,7 @@ function ConfirmacionComprar() {
 
             <div>
                 <label htmlFor="cuentabancariaempresa">La cuenta bancaria a donde deberá depositar soles es: </label>
-                <h5 className="mt-2 mb-4" id="cuentabancariaempresa">312480713217491310</h5>
+                <h5 className="mt-2 mb-4" id="cuentabancariaempresa">345-2940631-8-174</h5>
             </div>
 
             <div>
