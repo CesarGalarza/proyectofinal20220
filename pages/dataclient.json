@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "name":"Carlos Enrique",
+        "lastname": "Villadares Ruiz",
+        "dni": "12345678",
+        "email": "carlos@aloe.ulima.edu.pe",
+        "cellnumber":"987654321"
+    },
+    {
+     "id":2,
+     "name":"Adriana Carolina",
+     "lastname": "Hernandez Montoya",
+     "dni": "87654321",
+     "email": "Adriana@aloe.ulima.edu.pe",
+     "cellnumber":"986745323"
+    },
+    {
+     "id":3,
+     "name":"Camilo Alberto",
+     "lastname": "Fernandez Martínez",
+     "dni": "86752431",
+     "email": "camilo@aloe.ulima.edu.pe",
+     "cellnumber":"997526131"
+    },
+    {
+     "id":4,
+     "name":"Cynthia Elizabeth",
+     "lastname": "Gomez Delgado",
+     "dni": "13524687",
+     "email": "cynthia@aloe.ulima.edu.pe",
+     "cellnumber":"981537125"
+    }
+  ]
