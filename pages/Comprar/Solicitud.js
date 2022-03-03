@@ -19,8 +19,8 @@ function TiempoActual() {
 function MostrarNumeroOperacion(n) {
 
     return <div>
-        <label for="operacion">El número identificador de la presente operación es: </label>
-        <p class="mt-2 mb-4" id="operacion">{n}</p>
+        <label htmlFor="operacion">El número identificador de la presente operación es: </label>
+        <p className="mt-2 mb-4" id="operacion">{n}</p>
     </div>
 
 }
@@ -45,15 +45,15 @@ function SolicitudCompra() {
 
     return <div>
 
-        <body class="mt-4 container">
+        <body className="mt-4 container">
             <div>
                 <h1>Comprar</h1>
-                <h3 class="mt-4 mb-4">Paso 1 de 3 - Solicitud</h3>
+                <h3 className="mt-4 mb-4">Paso 1 de 3 - Solicitud</h3>
             </div>
 
             <div>
-                <label for="direccionwallet">Ingrese dirección wallet que recibirá bitcoins: </label>
-                <input class="form-control mt-2 mb-4" type="text" id="direccionwallet" onChange={leerValor}></input>
+                <label htmlFor="direccionwallet">Ingrese dirección wallet que recibirá bitcoins: </label>
+                <input className="form-control mt-2 mb-4" type="text" id="direccionwallet" onChange={leerValor}></input>
             </div>
 
             <div>
@@ -61,7 +61,7 @@ function SolicitudCompra() {
             </div>
 
             <div>
-                <a class="mt-4 mb-4 btn btn-primary" type="button" href="./Confirmacion">Solicitar Compra</a>
+                <a className="mt-4 mb-4 btn btn-primary" type="button" href="./Confirmacion">Solicitar Compra</a>
             </div>
                 
         </body>
