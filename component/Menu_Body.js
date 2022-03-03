@@ -76,7 +76,7 @@ const C_MenuOp = () => {
                     </div>
 
                     <a href="">
-                    <img src="https://cdn.icon-icons.com/icons2/2596/PNG/512/history_icon_155273.png" class="img-fluid w-50" alt="..."></img>
+                    <img src="https://thumbs.dreamstime.com/z/vector-de-iconos-historial-versiones-icono-versi%C3%B3n-documento-en-simple-161465756.jpg" class="img-fluid w-50" alt="..."></img>
                     </a>
                     <div className="container mb-4 mt-4">
                         <h3>Historial</h3>
