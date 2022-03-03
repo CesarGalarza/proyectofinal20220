@@ -29,7 +29,7 @@ function Registro_Uno() {
   return <div>
 
     <div>
-      <C_RegistroUno />
+      <C_RegistroUno onRegistrarUsuario={registrarUsuarioHandler} />
     </div>
 
   </div>
