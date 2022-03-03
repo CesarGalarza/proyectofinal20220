@@ -1,4 +1,14 @@
+import { Operacion } from "./Solicitud"
 import Head from 'next/head'
+
+function MostrarNumeroOperacion(n) {
+
+    return <div>
+        <label htmlFor="operacion">El número identificador de la presente operación es: </label>
+        <p className="mt-2 mb-4" id="operacion">{n}</p>
+    </div>
+
+}
 
 function EsperaComprar() {
   
@@ -19,8 +29,7 @@ function EsperaComprar() {
             </div>
 
             <div>
-                <label htmlFor="operacion">El número identificador de la presente operación es: </label>
-                <p className="mt-2 mb-4" id="operacion">138323492137401</p>
+                {MostrarNumeroOperacion(Operacion)}
             </div>
                 
         </body>
