@@ -4,7 +4,7 @@ function Registro_Uno() {
 
   const obtenerUsuariosHTTP = async () => {
 
-    let response = await fetch("api/imagenes")
+    let response = await fetch("api/usuario")
     const data = await response.json()
     return data
   }
@@ -20,7 +20,7 @@ function Registro_Uno() {
     }
     // Petición a backend
 
-    const resp = await fetch("/api/imagenes", {
+    const resp = await fetch("/api/usuario", {
       method: "POST",
       body: JSON.stringify(User)
     })
