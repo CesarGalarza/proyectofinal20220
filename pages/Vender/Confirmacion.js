@@ -6,7 +6,7 @@ function MostrarNumeroOperacion(n) {
     </div>
 }
 
-const Operacion = 0;
+const Operacion = 123456789;
 
 function ConfirmacionVender() {
   
