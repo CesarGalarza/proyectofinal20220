@@ -1,7 +1,7 @@
 import { Button, ListGroup } from "react-bootstrap";
 import editar_tipo_de_cambio from "./editar_tipo_de_cambio";
 import { useState } from "react";
-import Tipo_Cambio from "../components/Tipo_Cambio.component";
+import Tipo_Cambio from "../component/Tipo_Cambio.component";
 import { guardarTC,obtenerTC} from "../dao/proyectos_local";
 
 
