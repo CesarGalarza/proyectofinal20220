@@ -103,6 +103,7 @@ const App = () => {
             </tbody>
          </table>
          </form>
+         <input type="filtro" placeholder="Filtrar"></input>
      </div>
    );
  };
